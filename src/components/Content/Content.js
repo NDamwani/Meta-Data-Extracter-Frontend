@@ -373,9 +373,9 @@ function Content() {
       fitView
       style={{ width: '100%', height: '90vh', backgroundcolor:'orange' }} // Adjust as needed
     >
-    <Controls/>
-        <MiniMap />
-        <Background variant="dots" gap={12} size={1} />
+    {/* <Controls/> */}
+        {/* <MiniMap /> */}
+        <Background variant="dots" gap={12} size={1} color='orange' />
       </ReactFlow>
   );
 }
