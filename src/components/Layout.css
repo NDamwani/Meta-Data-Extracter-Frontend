@@ -5,6 +5,11 @@
     padding: 0 !important;
     margin: -10px !important;
   }
+
+  body {
+    max-height: 100vh;
+    overflow-y: hidden;
+  }
   
   .main-body {
     display: flex;
