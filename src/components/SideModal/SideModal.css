@@ -1,10 +1,10 @@
-/* SideModal.css */
+
 .side-modal {
   width: 300px;
   height: 100%;
   position: fixed;
   right: 0;
-  top: 57px; /* Adjusted to start after the header */
+  top: 57px; 
   background: #333;
   color: white;
   transform: translateX(100%);
@@ -108,7 +108,7 @@
 
 input[type="checkbox"] {
   margin-right: 10px;
-  accent-color: orange; /* For a custom checkbox color */
+  accent-color: orange; 
 }
 
 label {
@@ -119,11 +119,11 @@ label {
 }
 
 .dependency-icon {
-  margin-left: auto; /* Pushes the icon to the right */
-  color: orange; /* Icon color */
+  margin-left: auto; 
+  color: orange; 
 }
 
-/* Base styles for fieldset */
+
 fieldset {
   border: 1px solid #666;
   background-color: #333;
@@ -132,7 +132,7 @@ fieldset {
   margin: 10px 0;
 }
 
-/* Styling for the legend to look good against the darker background */
+
 legend {
   color: white;
   padding: 0 5px;
@@ -140,45 +140,17 @@ legend {
   border: none;
 }
 
-/* Flexbox for alignment */
+
 .d-flex {
   display: flex;
   align-items: center;
-  gap: 10px; /* Spacing between checkbox and label */
+  gap: 10px; 
 }
 
-/* Custom checkbox styles */
-/* input[type="checkbox"] {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #ccc;
-  background-color: #444;
-  cursor: pointer;
-  position: relative;
-} */
 
-/* input[type="checkbox"]:checked {
-  background-color: #007BFF;
-}
-
-input[type="checkbox"]:checked:after {
-  content: '';
-  position: absolute;
-  left: 5px;
-  top: 1px;
-  width: 6px;
-  height: 12px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
-} */
-
-/* Label styles */
 label {
   cursor: pointer;
-  user-select: none; /* Prevents text selection */
+  user-select: none; 
 }
 
 
